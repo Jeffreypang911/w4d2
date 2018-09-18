@@ -25,7 +25,7 @@ client.connect((err) => {
     for(i = 0; i < result.rows.length; i++) {
     counter = i + 1 
     output = `- ${counter}: ${result.rows[i].first_name} ${result.rows[i].last_name}, born '${result.rows[i].birthdate.toLocaleDateString()}'`
-    console.log(output)
+    console.log(output);
       }
 
 
